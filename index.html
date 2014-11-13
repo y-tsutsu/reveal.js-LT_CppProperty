@@ -8,16 +8,16 @@
 	<script  type="text/javascript">
 	    new Remotes("preview")
 	    .on("swipe-left", function(e){ 
-	            alert("表示テスト");
+	            onNavigateLeftClicked(e);
 	         })
 		.on("swipe-right", function(e){ 
-	            alert("表示テスト");
+	            nNavigateRightClicked(e);
 	         })
 		.on("swipe-up", function(e){ 
-	            alert("表示テスト");
+	            onNavigateUpClicked(e);
 	         })
 		.on("swipe-down", function(e){ 
-	            alert("表示テスト");
+	            onNavigateDownClicked(e);
 	         })
 		.on("tap", function(e){ 
 	            /* and the screen explodes */ 
