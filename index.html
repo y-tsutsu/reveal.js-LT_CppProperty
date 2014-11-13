@@ -41,16 +41,16 @@
 		<script>
 		    new Remotes("preview")
 		    .on("swipe-left", function(e){ 
-		            Reveal.navigateLeft();
+					Reveal.navigateRight();
 		         })
 			.on("swipe-right", function(e){ 
-		            Reveal.navigateRight();
+					Reveal.navigateLeft();
 		         })
 			.on("swipe-up", function(e){ 
-		            Reveal.navigateUp();
+					Reveal.navigateDown();
 		         })
 			.on("swipe-down", function(e){ 
-		            Reveal.navigateDown();
+					Reveal.navigateUp();
 		         })
 			.on("tap", function(e){ 
 		            /* and the screen explodes */ 
