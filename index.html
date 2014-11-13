@@ -8,16 +8,16 @@
 	<script>
 	    new Remotes("preview")
 	    .on("swipe-left", function(e){ 
-	            onNavigateLeftClicked(e);
+	            navigateLeft();
 	         })
 		.on("swipe-right", function(e){ 
-	            nNavigateRightClicked(e);
+	            navigateRight();
 	         })
 		.on("swipe-up", function(e){ 
-	            onNavigateUpClicked(e);
+	            navigateUp();
 	         })
 		.on("swipe-down", function(e){ 
-	            onNavigateDownClicked(e);
+	            navigateDown();
 	         })
 		.on("tap", function(e){ 
 	            /* and the screen explodes */ 
